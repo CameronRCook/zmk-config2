@@ -69,12 +69,13 @@
 / {
 	combos {
 		compatible = "zmk,combos";
-		combo_backspce {
+		combo_backspce 
+		{
 			timeout-ms = <50>;
 			key-positions = <8 9>;
 			bindings = <&kp BSPC>;
 		};
-		combo_gesc 
+		combo_esc 
 		{
 			timeout-ms = <30>;
 			key-positions = <0 1>;
@@ -83,7 +84,7 @@
 		combo_tab 
 		{
 			timeout-ms = <35>;
-			key-positions = <20 21>;
+			key-positions = <1 2>;
 			bindings = <&kp TAB>;
 		};
 		combo_mnxt 
@@ -138,7 +139,7 @@
 
     nav {
             bindings = <
-    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none 	&kp PG_UP 	&none 		&kp HOME 	&kp UP 		&kp END 	
+    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1  &bt BT_SEL_CMD 2  &bt BT_SEL_CMD 3  &none 	&kp PG_UP 	&none 		&kp HOME 	&kp UP 		&kp END
     &trans 		&trans 		&trans 		&trans 		&none 		&kp PG_DOWN	&none 		&kp LEFT 	&kp DOWN 	&kp RIGHT
     &rgb_ug RGB_TOG 	&rgb_ug RGB_EFF &none 		&none 		&none 		&none 		&none 		&kp GRAVE 	&kp BSLH 	&kp FSLH
     							&bt BT_CLR 	&trans 		&kp C_PREV 	&kp C_PP
