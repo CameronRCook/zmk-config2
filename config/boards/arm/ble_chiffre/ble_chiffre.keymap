@@ -138,9 +138,9 @@
 
     nav {
             bindings = <
-    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none 	&kp PG_UP 		&kp HOME 	&kp UP 		&END 		&kp BSPC
-    &trans 		&trans 		&trans 		&trans 		&none 		&kp PG_DOWN		&kp LEFT 	&kp DOWN 	&kp RIGHT 	&kp 
-    &rgb_ug RGB_TOG 	&rgb_ug RGB_EFF &none 		&none 		&none 		&none 	&none 		&kp GRAVE 	&kp BSLH 	&kp FSLH
+    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none 	&kp PG_UP 	&none 		&kp HOME 	&kp UP 		&kp END 	
+    &trans 		&trans 		&trans 		&trans 		&none 		&kp PG_DOWN	&none 		&kp LEFT 	&kp DOWN 	&kp RIGHT
+    &rgb_ug RGB_TOG 	&rgb_ug RGB_EFF &none 		&none 		&none 		&none 		&none 		&kp GRAVE 	&kp BSLH 	&kp FSLH
     							&bt BT_CLR 	&trans 		&kp C_PREV 	&kp C_PP
             >;
         };
